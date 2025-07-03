@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	config.CarregandoVariaveis()
 	config.ConnectDB()
 	migrate.MigrateDB()
 	handlers.Handlers()
